@@ -13,8 +13,8 @@ contract LightToken is StandardToken {
   // Setting Token Decimals to 18
   uint8 public constant decimals = 18;
 
-  // Setting Token Decimals to 45 Million
-  uint256 public constant INITIAL_SUPPLY = 45000000 * (1 ether / 1 wei);
+  // Setting Token Decimals to 10 Million
+  uint256 public constant INITIAL_SUPPLY = 10000000 * (1 ether / 1 wei);
 
   function LightToken() public{
     totalSupply = INITIAL_SUPPLY;
