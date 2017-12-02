@@ -1,0 +1,13 @@
+{
+  "name": "ico-contract",
+  "version": "1.0.0",
+  "description": "ICO Smart contract and Token",
+  "main": "index.js",
+  "repository": "https://github.com/lightrainstech/ico-contract.git",
+  "author": "Lightrains Tech <hello@lightrains.com>",
+  "license": "MIT",
+  "private": true,
+  "dependencies": {
+    "zeppelin-solidity": "^1.4.0"
+  }
+}
